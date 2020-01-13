@@ -1,12 +1,19 @@
 import React from 'react';
-import Home from './'
+
+import Routes from './routes';
+
+import Header  from './components/header';
+
+import Footer  from './components/footer';
 
 
 function App() {
   return (
-   <div>
-     <p>Olá</p>
-   </div>
+    <>
+   <Header/>
+   <Routes/>
+   <Footer/>
+   </>
   );
 }
 
